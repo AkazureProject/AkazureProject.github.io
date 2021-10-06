@@ -22,7 +22,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-Image(icon), heading & paragraph text, Links to external pages, Multiple pages with Nav, Semantic HTML tags 
+Image(icon), heading & paragraph text, Links to external pages, Multiple pages with Nav, Semantic HTML tags, Font Awesome Icons.
 
 
 (b) CSS features
@@ -46,4 +46,4 @@ Did not consult any other student.
 
 
 6. Is there anything special we need to know in order to run your code?
-No.
+The pages use CDNs to import stylesheets and scripts. Sidebar is on the left. A "Back-to-Top" button appears on the right corner of the page if it is needed. 

@@ -78,7 +78,10 @@ body #back-to-top{
     border:2px solid;
 }
 
-
+#main-content h2{
+    font-size:1.2em;
+    font-weight: bold;
+}
 
 #main-content nav table tr{
     height: 3em;
