@@ -12,6 +12,7 @@ html{
 body{
     z-index: 0;
     padding: 5%;
+    padding-top: 4em;
     padding-bottom: 0;
 }
 
@@ -151,8 +152,8 @@ body aside #left-show-navi{
 }
 
 body aside svg{
-    min-width:2em;
-    min-height:2em;
+    min-width: 2em;
+    min-height: 2em;
 }
 
 body aside #left-hide-navi{
