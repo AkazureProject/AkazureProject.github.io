@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+a:link {color:#113285; text-decoration: none;}
+a:hover {color:#003155; text-decoration: underline;}
+a:visited {color:#003155; text-decoration: none;}
+a:active {color:navy; text-decoration: underline;}
+
+html{
+    animation: hide-scrollbar 1s;
+}
+
+body{
+    z-index: 0;
+    padding: 4em;
+    padding-bottom: 0;
+}
+
+ul {list-style-type: square;}
+
+body #back-to-top{
+    z-index: 1;
+}
+
+#site-footer{
+    text-align: center;
+    align-self: center;
+}
+
+.non-select{
+    user-select:none;
+}
+
+.fullwidth{
+    width: 100%;
+}
+
+.rightBox {
+    float:right;
+    text-align: right
+}
+
+
+/* Doc-like */
+
+#main-content #content-window{
+    width: 70%;
+    min-width: 70%;
+    margin-left:15%;
+    padding: 1%;
+    min-height: 24em;
+    border:black 2px solid;
+    text-overflow: clip;
+}
+
+/* #main-content #content-window article{
+    animation-delay: 1s;
+    animation:paragraph-entrance 1.5s;
+} */
+
+#main-content nav{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: -2px;
+    /* min-height: 28em; */
+}
+
+
+#main-content nav table td{
+    width: 17%;
+    min-width: 17%;
+    font-weight: bolder;
+    font-size:.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-overflow: ellipsis; */
+    text-align: left;
+    border:2px solid;
+}
+
+
+
+#main-content nav table tr{
+    height: 3em;
+    user-select: none;
+}
+
+#main-content nav table{
+    width: 100%;
+    min-width: 100%;
+    /* float:right; */
+}
+
+#main-content #content-window{
+    font-size:1em;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#main-content #photography{
+    align-self: center;
+}
+
+#main-content #photography img{
+    margin:10%;
+    margin-bottom: 0;
+    margin-top: 1%;
+    width: 80%;
+    user-select: none;
+    border: black 6px solid;
+}
+
+@keyframes hide-scrollbar {
+    from, to {overflow: hidden;}
+}
+
+@keyframes paragraph-entrance{
+    0%{
+        width:10%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+/* Sidebar Navi */
+
+body aside nav{
+    display: None;
+    position: fixed;
+    top:5%;
+    left:0;
+    width: 20em;
+    height: 90%;
+    z-index: 1;
+    background-color: white;
+    border: black 2px solid;
+}
+
+body aside nav table{
+    margin-top:5%;
+    margin-left:10%;
+    width: 50%;
+    height: 80%;
+}
+
+body aside nav table tr{
+    height: 17%;
+    user-select: none;
+}
+
+body aside #left-show-navi{
+    position: fixed;
+    top: 1%;
+    left:0;
+}
+
+body aside svg{
+    min-width:2em;
+    min-height:2em;
+}
+
+body aside #left-hide-navi{
+    margin:5%;
+    margin-right: 10%;
+    float: right;
+}
+
+body aside #back-to-top{
+    z-index: 1;
+    position: fixed;
+    opacity: 0;
+    bottom: 1%;
+    right: 1%;
+}

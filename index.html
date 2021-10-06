@@ -1,7 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Yuxuan Zhang
+EMAIL: yuxuz23@uci.edu
+-->
+
 <head>
-<title>Akazure Project io</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Yuxuan Zhang">
+  <meta name="description" content="The index page of Yuxuan Zhang's Portfolio.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- you would link to an external stylesheet here! -->
+  <!-- local stylesheet -->
+  <link href="style.css" rel="stylesheet">
+  <!-- local js script -->
+  <script src="main.js"></script>
+  <!-- Animate From animate.style -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"
+    integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- you would also link to Bootstrap here! -->
+  <title>Yuxuan Zhang's Portfolio</title>
+  <link rel="icon" aria-roledescription="site icon" type="image/png" href="assets/logo.png" />
 </head>
 <body>
-<h1>More on <a href="https://akazure.com">akazure.com</a></h1>
-<h3><a href="./ics46-2020-grade-calc.html">ICS 46 2020FALL Grade Calculator</a></h3>
+  <div id="top" class="non-select animate__animated animate__fadeInDown" >
+    <h1>
+      <strong>Welcome<br>This is Yuxuan's Portfolio</strong>
+    </h1>
+  </div>
+  <div id="main-content" class="fullwidth">
+    <nav class="d-none d-sm-none d-md-block animate__animated animate__fadeInLeft animate_fadeOut">
+      <table>
+        <tbody>
+          <tr>
+            <td class="nav-button" id="overview">
+              <a href="index.html">OVERVIEW&#9;</a>
+            </td>
+            <td class="nav-button" id="education">
+              <a href="education.html">EDUCATION&#9;</a>
+            </td>
+            <td class="nav-button" id="internship">
+              <a href="internship.html">INTERNSHIP&#9;</a>
+            </td>
+            <td id="project">
+              <a href="project.html">PROJECT&#9;</a>
+            </td>
+            <td id="skill">
+              <a href="skill.html">SKILL&#9;</a>
+            </td>
+            <td id="interest">
+              <a href="interest.html">INTEREST&#9;</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </nav>
+    <div id="content-window" class="animate__animated animate__fadeInRight" role="doc-abstract">
+      <article>
+        <h2>Welcome to my E-Portfolio!</h2>
+        <p role="doc-introduction">I am Yuxuan Zhang, a third-year senior undergraduate student at
+          the University of California,
+          Irvine. You can call me Roger if that is preferred. I am a Computer Science student specialized in Intelligent
+          Systems. My personal blog is <a href="https://akazure.com">akazure.com</a> where I am updating my notes when reading and
+          learning, and my Github is <a href="https://github.com/BUTLER36HUS">BUTLER36HUS</a>
+          where I am gitting some part-time personal projects and homework solutions (though most of them are private).</p>
+        <p role="doc-part">I am a gamer and hopefully a game designer & game ai developer. I love FPS games and strategy games,
+          such as Victoria II
+          and Heart of Iron IV. Particularly, I really appreciate the pop system of Victoria II, and I wish I could design my
+          own version if it is allowed. I am currently working on a derivative game of GFL’s world settings with Unity.</p>
+        <p role="doc-part">Speaking of Art, I love minimalism and somehow against the repetitive homogenous web designs using UI
+          frameworks like
+          MaterialUI, AntDesign. That is what AI should do, not for human beings. Thus, I will try my best to avoid using them.
+          I love animates and photography. If time is allowed, my photos should be on the <a href="/interest.html">INTEREST
+            page</a>.</p>
+        <p role="doc-conclusion">After all, welcome to my E-Portfolio! Wish this could help you to know more about me.</p>
+      </article>
+    </div>
+  </div>
+  <footer class="fullwidth animate__animated animate__fadeInUp " id="site-footer">
+    <hr class="animate__animated animate__zoomIn">
+    <p class="author-info">By Yuxuan Zhang | <a href="mailto:yuxuz23@uci.edu">yuxuz23@uci.edu</a> | <a href="https://akazure.com">akazure.com</a></p>
+  </footer>
+  <aside>
+    <div id="left-show-navi" onclick="ShowSidebar()" class="animate__animated animate__slideInLeft"><i class="fas fa-bars"></i></div>
+    <nav id="left-navi">
+      <div id="left-hide-navi" onclick="HideSidebar()"><i class="fas fa-arrow-left"></i></div>
+      <table>
+        <tbody>
+          <tr>
+            <td id="sidebar-doverview">
+              <a href="index.html">OVERVIEW</a>
+            </td>
+          </tr>
+          <tr>
+            <td id="sidebar-education">
+              <a href="education.html">EDUCATION</a>
+            </td>
+          </tr>
+          <tr>
+            <td  id="sidebar-internship">
+              <a href="internship.html">INTERNSHIP</a>
+            </td>
+          </tr>
+          <tr>
+            <td id="sidebar-project">
+              <a href="project.html">PROJECT</a>
+            </td>
+          </tr>
+          <tr>
+            <td id="sidebar-skill">
+              <a href="skill.html">SKILL</a>
+            </td>
+          </tr>
+          <tr>
+            <td id="sidebar-interest">
+              <a href="interest.html">INTEREST</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </nav>
+  </aside>
+  <aside>
+    <div id="back-to-top" onclick="backToTop()"><i class="fas fa-arrow-up"></i></div>
+  </aside>
 </body>
+
+</html>
