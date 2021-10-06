@@ -43,9 +43,8 @@ body #back-to-top{
 /* Doc-like */
 
 #main-content #content-window{
-    width: 70%;
-    min-width: 70%;
-    margin-left:15%;
+    width: 100%;
+    min-width: 100%;
     padding: 1%;
     min-height: 24em;
     border:black 2px solid;
@@ -58,8 +57,7 @@ body #back-to-top{
 } */
 
 #main-content nav{
-    width: 70%;
-    margin-left: 15%;
+    width: 100%;
     margin-bottom: -2px;
     /* min-height: 28em; */
 }
